@@ -1,0 +1,136 @@
+digraph {
+	graph [size="17.25,17.25"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	5293546992 [label="
+ (8, 1000)" fillcolor=darkolivegreen1]
+	5293456832 [label=AddmmBackward0]
+	5293456688 -> 5293456832
+	5293545936 [label="classifier.6.bias
+ (1000)" fillcolor=lightblue]
+	5293545936 -> 5293456688
+	5293456688 [label=AccumulateGrad]
+	5293456640 -> 5293456832
+	5293456640 [label=ReluBackward0]
+	5293456400 -> 5293456640
+	5293456400 [label=AddmmBackward0]
+	5293456256 -> 5293456400
+	5293545744 [label="classifier.4.bias
+ (4096)" fillcolor=lightblue]
+	5293545744 -> 5293456256
+	5293456256 [label=AccumulateGrad]
+	5293456304 -> 5293456400
+	5293456304 [label=MulBackward0]
+	5293456160 -> 5293456304
+	5293456160 [label=ReluBackward0]
+	5293455872 -> 5293456160
+	5293455872 [label=AddmmBackward0]
+	5293455728 -> 5293455872
+	5290633712 [label="classifier.1.bias
+ (4096)" fillcolor=lightblue]
+	5290633712 -> 5293455728
+	5293455728 [label=AccumulateGrad]
+	5293455824 -> 5293455872
+	5293455824 [label=MulBackward0]
+	5293455584 -> 5293455824
+	5293455584 [label=ViewBackward0]
+	5293719712 -> 5293455584
+	5293719712 [label=AdaptiveAvgPool2DBackward0]
+	5293719808 -> 5293719712
+	5293719808 [label=MaxPool2DWithIndicesBackward0]
+	5293719904 -> 5293719808
+	5293719904 [label=ReluBackward0]
+	5293720000 -> 5293719904
+	5293720000 [label=ConvolutionBackward0]
+	5293720096 -> 5293720000
+	5293720096 [label=ReluBackward0]
+	5293720288 -> 5293720096
+	5293720288 [label=ConvolutionBackward0]
+	5293720384 -> 5293720288
+	5293720384 [label=ReluBackward0]
+	5293720576 -> 5293720384
+	5293720576 [label=ConvolutionBackward0]
+	5293720672 -> 5293720576
+	5293720672 [label=MaxPool2DWithIndicesBackward0]
+	5293720864 -> 5293720672
+	5293720864 [label=ReluBackward0]
+	5293720960 -> 5293720864
+	5293720960 [label=ConvolutionBackward0]
+	5293721056 -> 5293720960
+	5293721056 [label=MaxPool2DWithIndicesBackward0]
+	5293721248 -> 5293721056
+	5293721248 [label=ReluBackward0]
+	5293721344 -> 5293721248
+	5293721344 [label=ConvolutionBackward0]
+	5293721440 -> 5293721344
+	5290628624 [label="features.0.weight
+ (64, 3, 11, 11)" fillcolor=lightblue]
+	5290628624 -> 5293721440
+	5293721440 [label=AccumulateGrad]
+	5293721392 -> 5293721344
+	5293544784 [label="features.0.bias
+ (64)" fillcolor=lightblue]
+	5293544784 -> 5293721392
+	5293721392 [label=AccumulateGrad]
+	5293721008 -> 5293720960
+	5293544880 [label="features.3.weight
+ (192, 64, 5, 5)" fillcolor=lightblue]
+	5293544880 -> 5293721008
+	5293721008 [label=AccumulateGrad]
+	5293720768 -> 5293720960
+	5293544976 [label="features.3.bias
+ (192)" fillcolor=lightblue]
+	5293544976 -> 5293720768
+	5293720768 [label=AccumulateGrad]
+	5293720624 -> 5293720576
+	5293545072 [label="features.6.weight
+ (384, 192, 3, 3)" fillcolor=lightblue]
+	5293545072 -> 5293720624
+	5293720624 [label=AccumulateGrad]
+	5293720480 -> 5293720576
+	5293545168 [label="features.6.bias
+ (384)" fillcolor=lightblue]
+	5293545168 -> 5293720480
+	5293720480 [label=AccumulateGrad]
+	5293720336 -> 5293720288
+	5293545264 [label="features.8.weight
+ (256, 384, 3, 3)" fillcolor=lightblue]
+	5293545264 -> 5293720336
+	5293720336 [label=AccumulateGrad]
+	5293720192 -> 5293720288
+	5293545360 [label="features.8.bias
+ (256)" fillcolor=lightblue]
+	5293545360 -> 5293720192
+	5293720192 [label=AccumulateGrad]
+	5293720048 -> 5293720000
+	5293545456 [label="features.10.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	5293545456 -> 5293720048
+	5293720048 [label=AccumulateGrad]
+	5293719616 -> 5293720000
+	5293545552 [label="features.10.bias
+ (256)" fillcolor=lightblue]
+	5293545552 -> 5293719616
+	5293719616 [label=AccumulateGrad]
+	5293455968 -> 5293455872
+	5293455968 [label=TBackward0]
+	5293455536 -> 5293455968
+	5290625456 [label="classifier.1.weight
+ (4096, 9216)" fillcolor=lightblue]
+	5290625456 -> 5293455536
+	5293455536 [label=AccumulateGrad]
+	5293456352 -> 5293456400
+	5293456352 [label=TBackward0]
+	5293455680 -> 5293456352
+	5293545648 [label="classifier.4.weight
+ (4096, 4096)" fillcolor=lightblue]
+	5293545648 -> 5293455680
+	5293455680 [label=AccumulateGrad]
+	5293456448 -> 5293456832
+	5293456448 [label=TBackward0]
+	5293455920 -> 5293456448
+	5293545840 [label="classifier.6.weight
+ (1000, 4096)" fillcolor=lightblue]
+	5293545840 -> 5293455920
+	5293455920 [label=AccumulateGrad]
+	5293456832 -> 5293546992
+}
