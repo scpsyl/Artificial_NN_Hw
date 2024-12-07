@@ -34,7 +34,7 @@
 |     20      | 88.92 |
 |     50      | 85.078  |
 
-![Inputs:Valve_dataset](D:\Desktop\Artificial_NN_Hw\Homework4\Task3\image\output2.png)
+![Inputs:Valve_dataset](Task3\image\output1.png)
 
 可以看到 简单网络对于较复杂的信号的拟合效果较差，且对于过于简单的信号，过大的隐层节点数也会有过拟合的情况造成MSE偏大。
 
@@ -48,7 +48,7 @@
 |     3      | 1.6456e-10 |
 |     5      | 1.8712e-08 |
 
-![](D:\Desktop\Artificial_NN_Hw\Homework4\Task3\image\output3.png)
+![](Task3\image\output3.png)
 
 管道阀流速的MSE和曲线如下:
 
@@ -58,7 +58,7 @@
 |     3      | 107.61 |
 |     5      | 95.14 |
 
-![](D:\Desktop\Artificial_NN_Hw\Homework4\Task3\image\output4.png)
+![](Task3\image\output4.png)
 
 可以看到 对于较简单的信号，过大的延迟窗口会造成过拟合，使得实际性能偏差。
 
